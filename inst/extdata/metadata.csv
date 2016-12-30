@@ -1,56 +1,56 @@
-"Title","Description","BiocVersion","SourceUrl","SourceVersion","DataProvided","Maintainer","RDataClass","ResourceName"
+"Title","Description","BiocVersion","SourceUrl","SourceVersion","SourceType","Genome","TaxonomyID","Species","Coordinate_1_based","DispatchClass","DataProvider","Maintainer","RDataClass","ResourceName"
 "BRCA.mRNA.20160128"," Package provides mRNA datasets from The Cancer Genome Atlas
 Project for all cohorts types from http://gdac.broadinstitute.org/. mRNA
 data format is explained on NCI TCGA wiki https://wiki.nci.nih.gov/display/TCGA/Gene+expression+data
 Data taken from 2016-01-28 release. All release dates are
-available here http://gdac.broadinstitute.org/runs/ . ","3.4","http://gdac.broadinstitute.org/","2016-01-28","TCGA","Bioconductor Package Maintainer <maintainer@bioconductor.org>","data.frame","BRCA.mRNA.20160128"
+available here http://gdac.broadinstitute.org/runs/ . ","3.4","http://gdac.broadinstitute.org/","2016-01-28","zip","hg19",9606,"Homo sapiens",TRUE,"Rda","TCGA","Bioconductor Package Maintainer <maintainer@bioconductor.org>","data.frame","BRCA.mRNA.20160128"
 "COADREAD.mRNA.20160128"," Package provides mRNA datasets from The Cancer Genome Atlas
 Project for all cohorts types from http://gdac.broadinstitute.org/. mRNA
 data format is explained on NCI TCGA wiki https://wiki.nci.nih.gov/display/TCGA/Gene+expression+data
 Data taken from 2016-01-28 release. All release dates are
-available here http://gdac.broadinstitute.org/runs/ . ","3.4","http://gdac.broadinstitute.org/","2016-01-28","TCGA","Bioconductor Package Maintainer <maintainer@bioconductor.org>","data.frame","COADREAD.mRNA.20160128"
+available here http://gdac.broadinstitute.org/runs/ . ","3.4","http://gdac.broadinstitute.org/","2016-01-28","zip","hg19",9606,"Homo sapiens",TRUE,"Rda","TCGA","Bioconductor Package Maintainer <maintainer@bioconductor.org>","data.frame","COADREAD.mRNA.20160128"
 "GBMLGG.mRNA.20160128"," Package provides mRNA datasets from The Cancer Genome Atlas
 Project for all cohorts types from http://gdac.broadinstitute.org/. mRNA
 data format is explained on NCI TCGA wiki https://wiki.nci.nih.gov/display/TCGA/Gene+expression+data
 Data taken from 2016-01-28 release. All release dates are
-available here http://gdac.broadinstitute.org/runs/ . ","3.4","http://gdac.broadinstitute.org/","2016-01-28","TCGA","Bioconductor Package Maintainer <maintainer@bioconductor.org>","data.frame","GBMLGG.mRNA.20160128"
+available here http://gdac.broadinstitute.org/runs/ . ","3.4","http://gdac.broadinstitute.org/","2016-01-28","zip","hg19",9606,"Homo sapiens",TRUE,"Rda","TCGA","Bioconductor Package Maintainer <maintainer@bioconductor.org>","data.frame","GBMLGG.mRNA.20160128"
 "GBM.mRNA.20160128"," Package provides mRNA datasets from The Cancer Genome Atlas
 Project for all cohorts types from http://gdac.broadinstitute.org/. mRNA
 data format is explained on NCI TCGA wiki https://wiki.nci.nih.gov/display/TCGA/Gene+expression+data
 Data taken from 2016-01-28 release. All release dates are
-available here http://gdac.broadinstitute.org/runs/ . ","3.4","http://gdac.broadinstitute.org/","2016-01-28","TCGA","Bioconductor Package Maintainer <maintainer@bioconductor.org>","data.frame","GBM.mRNA.20160128"
+available here http://gdac.broadinstitute.org/runs/ . ","3.4","http://gdac.broadinstitute.org/","2016-01-28","zip","hg19",9606,"Homo sapiens",TRUE,"Rda","TCGA","Bioconductor Package Maintainer <maintainer@bioconductor.org>","data.frame","GBM.mRNA.20160128"
 "KIPAN.mRNA.20160128"," Package provides mRNA datasets from The Cancer Genome Atlas
 Project for all cohorts types from http://gdac.broadinstitute.org/. mRNA
 data format is explained on NCI TCGA wiki https://wiki.nci.nih.gov/display/TCGA/Gene+expression+data
 Data taken from 2016-01-28 release. All release dates are
-available here http://gdac.broadinstitute.org/runs/ . ","3.4","http://gdac.broadinstitute.org/","2016-01-28","TCGA","Bioconductor Package Maintainer <maintainer@bioconductor.org>","data.frame","KIPAN.mRNA.20160128"
+available here http://gdac.broadinstitute.org/runs/ . ","3.4","http://gdac.broadinstitute.org/","2016-01-28","zip","hg19",9606,"Homo sapiens",TRUE,"Rda","TCGA","Bioconductor Package Maintainer <maintainer@bioconductor.org>","data.frame","KIPAN.mRNA.20160128"
 "KIRC.mRNA.20160128"," Package provides mRNA datasets from The Cancer Genome Atlas
 Project for all cohorts types from http://gdac.broadinstitute.org/. mRNA
 data format is explained on NCI TCGA wiki https://wiki.nci.nih.gov/display/TCGA/Gene+expression+data
 Data taken from 2016-01-28 release. All release dates are
-available here http://gdac.broadinstitute.org/runs/ . ","3.4","http://gdac.broadinstitute.org/","2016-01-28","TCGA","Bioconductor Package Maintainer <maintainer@bioconductor.org>","data.frame","KIRC.mRNA.20160128"
+available here http://gdac.broadinstitute.org/runs/ . ","3.4","http://gdac.broadinstitute.org/","2016-01-28","zip","hg19",9606,"Homo sapiens",TRUE,"Rda","TCGA","Bioconductor Package Maintainer <maintainer@bioconductor.org>","data.frame","KIRC.mRNA.20160128"
 "KIRP.mRNA.20160128"," Package provides mRNA datasets from The Cancer Genome Atlas
 Project for all cohorts types from http://gdac.broadinstitute.org/. mRNA
 data format is explained on NCI TCGA wiki https://wiki.nci.nih.gov/display/TCGA/Gene+expression+data
 Data taken from 2016-01-28 release. All release dates are
-available here http://gdac.broadinstitute.org/runs/ . ","3.4","http://gdac.broadinstitute.org/","2016-01-28","TCGA","Bioconductor Package Maintainer <maintainer@bioconductor.org>","data.frame","KIRP.mRNA.20160128"
+available here http://gdac.broadinstitute.org/runs/ . ","3.4","http://gdac.broadinstitute.org/","2016-01-28","zip","hg19",9606,"Homo sapiens",TRUE,"Rda","TCGA","Bioconductor Package Maintainer <maintainer@bioconductor.org>","data.frame","KIRP.mRNA.20160128"
 "LUAD.mRNA.20160128"," Package provides mRNA datasets from The Cancer Genome Atlas
 Project for all cohorts types from http://gdac.broadinstitute.org/. mRNA
 data format is explained on NCI TCGA wiki https://wiki.nci.nih.gov/display/TCGA/Gene+expression+data
 Data taken from 2016-01-28 release. All release dates are
-available here http://gdac.broadinstitute.org/runs/ . ","3.4","http://gdac.broadinstitute.org/","2016-01-28","TCGA","Bioconductor Package Maintainer <maintainer@bioconductor.org>","data.frame","LUAD.mRNA.20160128"
+available here http://gdac.broadinstitute.org/runs/ . ","3.4","http://gdac.broadinstitute.org/","2016-01-28","zip","hg19",9606,"Homo sapiens",TRUE,"Rda","TCGA","Bioconductor Package Maintainer <maintainer@bioconductor.org>","data.frame","LUAD.mRNA.20160128"
 "LUSC.mRNA.20160128"," Package provides mRNA datasets from The Cancer Genome Atlas
 Project for all cohorts types from http://gdac.broadinstitute.org/. mRNA
 data format is explained on NCI TCGA wiki https://wiki.nci.nih.gov/display/TCGA/Gene+expression+data
 Data taken from 2016-01-28 release. All release dates are
-available here http://gdac.broadinstitute.org/runs/ . ","3.4","http://gdac.broadinstitute.org/","2016-01-28","TCGA","Bioconductor Package Maintainer <maintainer@bioconductor.org>","data.frame","LUSC.mRNA.20160128"
+available here http://gdac.broadinstitute.org/runs/ . ","3.4","http://gdac.broadinstitute.org/","2016-01-28","zip","hg19",9606,"Homo sapiens",TRUE,"Rda","TCGA","Bioconductor Package Maintainer <maintainer@bioconductor.org>","data.frame","LUSC.mRNA.20160128"
 "OV.mRNA.20160128"," Package provides mRNA datasets from The Cancer Genome Atlas
 Project for all cohorts types from http://gdac.broadinstitute.org/. mRNA
 data format is explained on NCI TCGA wiki https://wiki.nci.nih.gov/display/TCGA/Gene+expression+data
 Data taken from 2016-01-28 release. All release dates are
-available here http://gdac.broadinstitute.org/runs/ . ","3.4","http://gdac.broadinstitute.org/","2016-01-28","TCGA","Bioconductor Package Maintainer <maintainer@bioconductor.org>","data.frame","OV.mRNA.20160128"
+available here http://gdac.broadinstitute.org/runs/ . ","3.4","http://gdac.broadinstitute.org/","2016-01-28","zip","hg19",9606,"Homo sapiens",TRUE,"Rda","TCGA","Bioconductor Package Maintainer <maintainer@bioconductor.org>","data.frame","OV.mRNA.20160128"
 "UCEC.mRNA.20160128"," Package provides mRNA datasets from The Cancer Genome Atlas
 Project for all cohorts types from http://gdac.broadinstitute.org/. mRNA
 data format is explained on NCI TCGA wiki https://wiki.nci.nih.gov/display/TCGA/Gene+expression+data
 Data taken from 2016-01-28 release. All release dates are
-available here http://gdac.broadinstitute.org/runs/ . ","3.4","http://gdac.broadinstitute.org/","2016-01-28","TCGA","Bioconductor Package Maintainer <maintainer@bioconductor.org>","data.frame","UCEC.mRNA.20160128"
+available here http://gdac.broadinstitute.org/runs/ . ","3.4","http://gdac.broadinstitute.org/","2016-01-28","zip","hg19",9606,"Homo sapiens",TRUE,"Rda","TCGA","Bioconductor Package Maintainer <maintainer@bioconductor.org>","data.frame","UCEC.mRNA.20160128"

@@ -45,6 +45,21 @@ UCEC.mRNA.20160128
 \arguments{
 \item{metadata}{A logical indicating whether load data into the workspace (default, \code{FALSE}) or to only display the object's metadata (\code{TRUE}). See examples.}
 }
+\value{
+\itemize{
+\item BRCA.mRNA.20160128 - class: data.frame - nrow: 590 - ncol: 17815 
+\item COADREAD.mRNA.20160128 - class: data.frame - nrow: 244 - ncol: 17815 
+\item GBMLGG.mRNA.20160128 - class: data.frame - nrow: 27 - ncol: 17815 
+\item GBM.mRNA.20160128 - class: data.frame - nrow: 27 - ncol: 17815 
+\item KIPAN.mRNA.20160128 - class: data.frame - nrow: 88 - ncol: 17815 
+\item KIRC.mRNA.20160128 - class: data.frame - nrow: 72 - ncol: 17815 
+\item KIRP.mRNA.20160128 - class: data.frame - nrow: 16 - ncol: 17815 
+\item LUAD.mRNA.20160128 - class: data.frame - nrow: 32 - ncol: 17815 
+\item LUSC.mRNA.20160128 - class: data.frame - nrow: 154 - ncol: 17815 
+\item OV.mRNA.20160128 - class: data.frame - nrow: 561 - ncol: 17815 
+\item UCEC.mRNA.20160128 - class: data.frame - nrow: 54 - ncol: 17815 
+}
+}
 \description{
 Package provides mRNA datasets from The Cancer Genome Atlas Project for all cohorts types from \url{http://gdac.broadinstitute.org/}.
 Data were downloaded using \link{RTCGA-package} and contain snapshots for the release date: \code{2016-01-28} . Visit \pkg{RTCGA} site: \url{http://rtcga.github.io/RTCGA/}.

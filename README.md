@@ -11,17 +11,17 @@ with `RTCGA::infoTCGA()`, release dates with `RTCGA::checkTCGA('Dates')` and dat
 The used data type for this package was ` agilentg4502a_07_3__unc_edu__Level_3 ` - all those information are included in the `DESCRIPTION` file. To see
 the manual page for included datasets run  `?mRNA.20160128` in R console. 
 
--  BRCA.mRNA.20160128 
--  COADREAD.mRNA.20160128 
--  GBMLGG.mRNA.20160128 
--  GBM.mRNA.20160128 
--  KIPAN.mRNA.20160128 
--  KIRC.mRNA.20160128 
--  KIRP.mRNA.20160128 
--  LUAD.mRNA.20160128 
--  LUSC.mRNA.20160128 
--  OV.mRNA.20160128 
--  UCEC.mRNA.20160128 
+-  BRCA.mRNA.20160128 - class: data.frame - nrow: 590 - ncol: 17815 
+-  COADREAD.mRNA.20160128 - class: data.frame - nrow: 244 - ncol: 17815 
+-  GBMLGG.mRNA.20160128 - class: data.frame - nrow: 27 - ncol: 17815 
+-  GBM.mRNA.20160128 - class: data.frame - nrow: 27 - ncol: 17815 
+-  KIPAN.mRNA.20160128 - class: data.frame - nrow: 88 - ncol: 17815 
+-  KIRC.mRNA.20160128 - class: data.frame - nrow: 72 - ncol: 17815 
+-  KIRP.mRNA.20160128 - class: data.frame - nrow: 16 - ncol: 17815 
+-  LUAD.mRNA.20160128 - class: data.frame - nrow: 32 - ncol: 17815 
+-  LUSC.mRNA.20160128 - class: data.frame - nrow: 154 - ncol: 17815 
+-  OV.mRNA.20160128 - class: data.frame - nrow: 561 - ncol: 17815 
+-  UCEC.mRNA.20160128 - class: data.frame - nrow: 54 - ncol: 17815 
 
 Optionally, the data can be loaded through the [ExperimentHub](http://www.bioconductor.org/packages/3.4/bioc/vignettes/ExperimentHubData/inst/doc/ExperimentHubData.html) interface.
 
@@ -33,15 +33,6 @@ myfiles[[1]]  ## load the first resource in the list
 ```
 
 
-# Installation 
-
-To install this package from GitHub use
-```{r, eval=FALSE}
-library(RTCGA) 
- installTCGA("RTCGA.mRNA.20160128") 
-```
-
-Make sure you have [Rtools](https://cran.r-project.org/bin/windows/Rtools/) installed on your computer, if you are trying devtools on Windows.
 # Notes
 
 Note that this package is a data package with datasets from 2016-01-28 release date. There are few data packages already on Bioconductor with datasets from "2015-11-01". To read more check `?RTCGA::datasetsTCGA`.

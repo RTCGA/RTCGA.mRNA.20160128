@@ -1,8 +1,8 @@
 .onLoad <- function(libname, pkgname) {
-    titles <- read.csv(system.file("extdata", "metadata.csv", 
+    rda <- read.csv(system.file("extdata", "metadata.csv", 
                       package = "RTCGA.mRNA.20160128"), 
                       stringsAsFactors=FALSE)$Title
-    rda <- gsub(".rda", "", titles, fixed=TRUE)
+    #rda <- gsub(".rda", "", titles, fixed=TRUE)
     if (!length(rda))
         stop("no .rda objects found in metadata")
 
@@ -13,7 +13,7 @@
             func = function(metadata = FALSE) {
                 if (!isNamespaceLoaded("ExperimentHub"))
                     attachNamespace("ExperimentHub")
-                eh <- AnnotationHub::query(ExperimentHub(),  "RTCGA.mRNA.20160128" )
+                eh <- query(ExperimentHub(),  "RTCGA.mRNA.20160128" )
                 ehid <- names(AnnotationHub::query(eh, xx))
                 if (!length(ehid))
                     stop(paste0("resource ", xx, 
